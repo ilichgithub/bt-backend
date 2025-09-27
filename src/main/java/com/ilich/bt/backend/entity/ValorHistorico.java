@@ -28,5 +28,5 @@ public class ValorHistorico {
 
     private Double valor; // Ej: 1 BTC = 27,000 USD
 
-    private LocalDateTime fecha; // Fecha y hora del valor
+    private LocalDateTime fecha = LocalDateTime.now();
 }
